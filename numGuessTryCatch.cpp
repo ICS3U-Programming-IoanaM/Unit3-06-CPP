@@ -30,8 +30,8 @@ int main() {
         // if userNum out of range
         if (userNumInt < 0 || userNumInt > 9) {
             std::cout << "Please input a number between 0 and 9!" << std::endl;
-            
-        // if user guessed random number 
+
+        // if user guessed random number
         } else if (userNumInt == randNum) {
             std::cout << "Correct! " << randNum <<
             " is the right number!" << std::endl;
